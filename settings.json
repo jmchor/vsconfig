@@ -1,0 +1,76 @@
+{
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"telemetry.telemetryLevel": "off",
+	"editor.wordWrap": "on",
+	"workbench.colorTheme": "Cobalt2",
+	"workbench.iconTheme": "material-icon-theme",
+	"editor.fontFamily": "JetBrains Mono, 'Hack', 'Droid Sans Mono', 'monospace', monospace",
+	"vscodeWorkspaceSwitcher.paths": ["/home/jc/code.workspaces"],
+	"files.trimTrailingWhitespace": true,
+	// These are all my auto-save configs
+	"editor.formatOnSave": true,
+	// turn it off for JS and JSX, we will do this via eslint
+	"[javascript]": {
+		"editor.formatOnSave": false
+	},
+	"[javascriptreact]": {
+		"editor.formatOnSave": false
+	},
+	// show eslint icon at bottom toolbar
+	"eslint.alwaysShowStatus": true,
+	// tell the ESLint plugin to run on save
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true
+	},
+	"editor.cursorStyle": "line",
+	"editor.cursorBlinking": "solid",
+	"editor.renderWhitespace": "all",
+	"prettier.singleQuote": true,
+	"prettier.jsxSingleQuote": true,
+	"git.autofetch": true,
+	"bracketPairColorizer.depreciation-notice": false,
+	"editor.fontSize": 14,
+	"editor.lineHeight": 25,
+	"editor.letterSpacing": 0.5,
+	"todo-tree.general.fileWatcherGlob": "//",
+	"todo-tree.general.enableFileWatcher": true,
+	"todo-tree.highlights.customHighlight": {
+		"BUG": {
+			"icon": "bug"
+		},
+		"HACK": {
+			"icon": "tools"
+		},
+		"FIXME": {
+			"icon": "flame"
+		},
+		"XXX": {
+			"icon": "$(close)"
+		}
+	},
+	"todo-tree.highlights.defaultHighlight": {
+		"background": "red"
+	},
+	"vscodeWorkspaceSwitcher.showTreeView": false,
+	"git.enableSmartCommit": true,
+	"workbench.activityBar.visible": false,
+
+	"html.completion.attributeDefaultValue": "empty",
+	"html.format.indentHandlebars": true,
+	"html.format.indentInnerHtml": true,
+	"html.format.wrapAttributes": "force-aligned",
+	"prettier.printWidth": 120,
+	"workbench.editor.labelFormat": "short",
+	"liveServer.settings.donotShowInfoMsg": true,
+	"color-highlight.matchWords": true,
+	"color-highlight.matchRgbWithNoFunction": true,
+
+	"vscode_custom_css.imports": ["file:///home/jc/code.workspaces/.vscodestyles.css"],
+	"git.confirmSync": false,
+	"liveServer.settings.AdvanceCustomBrowserCmdLine": "/opt/firefox/firefox",
+	"liveServer.settings.donotVerifyTags": true,
+	"workbench.preferredLightColorTheme": "Level Up Syntax",
+	"todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "XXX", "[ ]", "[x]", "ADD"],
+	"editor.snippetSuggestions": "top",
+	"prettier.useTabs": true
+}

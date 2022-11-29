@@ -1,0 +1,47 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+	{
+		"key": "ctrl+shift+w ctrl+shift+w",
+		"command": "vscodeWorkspaceSwitcherViewInActivityBar.focus"
+	},
+	{
+		"key": "ctrl+shift+l ctrl+shift+o",
+		"command": "extension.liveServer.goOnline",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "alt+l alt+o",
+		"command": "-extension.liveServer.goOnline",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+shift+l ctrl+shift+c",
+		"command": "extension.liveServer.goOffline",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "alt+l alt+c",
+		"command": "-extension.liveServer.goOffline",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+shift+a ctrl+shift+a",
+		"command": "editor.emmet.action.wrapWithAbbreviation"
+	},
+	{
+		"key": "ctrl+shift+k ctrl+shift+k",
+		"command": "editor.emmet.action.removeTag"
+	},
+	{
+		"key": "ctrl+shift+t ctrl+shift+t",
+		"command": "workbench.view.extension.todo-tree-container"
+	},
+	{
+		"key": "ctrl+t ctrl+t",
+		"command": "todo-tree.addTag"
+	},
+	{
+		"key": "ctrl+n",
+		"command": "explorer.newFile"
+	}
+]
